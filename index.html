@@ -1,21 +1,3 @@
-<?php
-session_start();
-
-error_reporting(0);
-// 1. Cek apakah sudah login
-if (!isset($_SESSION['username'])) {
-    header("Location: php/login.php");
-    exit();
-}
-
-// 2. Cek apakah sudah melewati welcome
-if (!isset($_SESSION['welcome_done'])) {
-    header("Location: welcome.html");
-    exit();
-}
-?>
-
-<?php include('php/navbar.php'); ?>
 <!DOCTYPE html>
 <html lang="id">
 <head>
