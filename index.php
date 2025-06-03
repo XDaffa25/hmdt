@@ -37,7 +37,7 @@ if (!isset($_SESSION['welcome_done'])) {
       <a href="#">About</a>
       <a href="#">Student Info</a>
       <a href="#">Articles</a>
-      <a href="#">Contact</a>
+      <a href="contact.php">Contact</a>
     </nav>
     <div class="navbar-buttons">
       <button class="btn">Partnership</button>
@@ -82,22 +82,22 @@ if (!isset($_SESSION['welcome_done'])) {
   <section class="vision-mission">
     <div class="vision-mission-container">
       <div class="vision-mission-text">
-        <h4 class="vision-mission-subtitle">Siapa Kita</h4>
+        <h4 class="vision-mission-subtitle">Who We Are</h4>
         <h2 class="vision-mission-title">Our Vision</h2>
         <p class="vision-mission-paragraph">
-          Terwujudnya lembaga eksekutif yang aktif, responsif, dan konstruktif dalam gerakan, pengabdian, pelayanan serta pengembangan minat dan bakat mahasiswa untuk Prodi, Universitas dan Indonesia.
+          Menjadi program vokasi unggul dalam riset terapan dan kewirausahaan pada tahun 2028 yang berperan aktif dalam pengembangan teknologi terapan di bidang Telekomunikasi Digital
         </p>
         <h2 class="vision-mission-title">Our Mission</h2>
         <ul class="vision-mission-list">
-          <li>➤ Memberikan pelayanan terbaik dan manfaat berkelanjutan dalam rangka pemenuhan kebutuhan dan hajat hidup mahasiswa D3 Teknologi Telekomunikasi.</li>
-          <li>➤ Mewadahi dan memfasilitasi pengembangan minat-bakat serta meningkatkan prestasi mahasiswa D3 Teknologi Telekomunikasi.</li>
-          <li>➤ Menciptakan, mengembangkan, dan menyebarkan nilai-nilai inklusivitas gerakan pengabdian mahasiswa D3 Teknologi Telekomunikasi untuk Indonesia.</li>
-          <li>➤ Menanamkan akar nilai dan budaya D3 Teknologi Telekomunikasi serta memberikan nilai tambah yang optimal kepada seluruh fungsionaris.</li>
+          <li>➤ Mengembangkan dan menyelenggarakan pendidikan vokasi berstandar Internasional di bidang Teknologi Telekomunikasi dan menghasilkan lulusan yang mampu mengembangkan profesionalisme dalam bidang Telekomunikasi Digital.</li>
+          <li>➤ Mengembangkan, menghasilkan, menyebarluaskan, dan menerapkan teknologi dan inovasi terapan di bidang Teknologi Telekomunikasi Digital pada industri berstandar Internasional.</li>
+          <li>➤ Mengembangkan kerjasama dengan industri dan masyarakat nasional dan internasional.</li>
+          <li>➤ Mengembangkan keterampilan untuk menjadi technopreneur yang mampu mengembangkan usaha secara mandiri di bidang Telekomunikasi.</li>
         </ul>
       </div>
 
       <div class="vision-mission-image-wrapper">
-        <img src="image/gambar.jpg" alt="Foto BEM" class="vision-mission-image">
+        <img src="image/Anggota.jpg" alt="Foto BEM" class="vision-mission-image">
         <div class="vision-mission-badge">
           <p class="year">2025</p>
           <p class="label">HMDT</p>

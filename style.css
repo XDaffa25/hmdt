@@ -1,0 +1,265 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #f5f6fa;
+  color: #333;
+}
+
+.enter-button, .back-button {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #1e293b;
+  color: white;
+  border-radius: 999px;
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.enter-button:hover, .back-button:hover {
+  background-color: #0f172a;
+}
+
+.welcome-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: #f9fafb;
+  text-align: center;
+}
+
+
+/* Navbar */
+.navbar {
+  background: #ffffff;
+  padding: 20px 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+
+}
+
+.logo-img {
+  margin-right: auto;
+  width: 40px;
+  height: auto;
+  max-width: 90%;
+  border-radius: 20px;
+}
+
+.logo-text {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #1e1e2f;
+}
+
+.navbar .logo {
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #1e1e2f;
+}
+
+.navbar nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #1e1e2f;
+  font-weight: 500;
+}
+
+.navbar-buttons .btn {
+  background: #2e3a59;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-left: 10px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.navbar-buttons .btn:hover {
+  background: #ffc107;
+  color: #1e1e2f;
+}
+
+/* Hero Section */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 80px;
+  background: linear-gradient(to bottom, #fff, #f5f6fa);
+}
+
+.hero-text {
+  flex: 1;
+}
+
+.hero-text h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  color: #1e1e2f;
+}
+
+.hero-text span {
+  color: #2e3a59;
+}
+
+.hero-text p {
+  font-size: 1.2rem;
+  max-width: 600px;
+}
+
+.hero-img img {
+  width: 650px;
+  height: 400px;
+  max-width: 90%;
+  border-radius: 20px;
+}
+
+.video-profile {
+  padding: 60px 20px;
+  background-color: #f9fafb;
+}
+
+.video-profile-container {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  align-items: center;
+}
+
+.video-profile-video {
+  flex: 1;
+  min-width: 300px;
+}
+
+.video-profile-text {
+  flex: 1;
+  min-width: 300px;
+}
+
+.video-subtitle {
+  color: #facc15;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.video-title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #1e293b;
+  margin-top: 10px;
+}
+
+.video-desc {
+  color: #475569;
+  margin: 20px 0;
+  line-height: 1.6;
+}
+
+.video-button {
+  background-color: #1e293b;
+  color: white;
+  padding: 12px 24px;
+  text-decoration: none;
+  border-radius: 999px;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+}
+
+.video-button:hover {
+  background-color: #0f172a;
+}
+
+.vision-mission {
+  padding: 60px 20px;
+  background-color: #f5f6fa;
+;
+}
+
+.vision-mission-container {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 40px;
+}
+
+.vision-mission-text {
+  flex: 1;
+  min-width: 300px;
+}
+
+.vision-mission-subtitle {
+  color: #ffc107;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.vision-mission-title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #1e293b;
+  margin-top: 10px;
+}
+
+.vision-mission-paragraph {
+  margin-bottom: 30px;
+  color: #475569;
+}
+
+.vision-mission-list {
+  color: #475569;
+  list-style: none;
+  padding-left: 0;
+}
+
+.vision-mission-list li {
+  margin-bottom: 10px;
+}
+
+.vision-mission-image-wrapper {
+  flex: 1;
+  min-width: 300px;
+  position: relative;
+}
+
+.vision-mission-image {
+  border-radius: 16px;
+  width: 100%;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.vision-mission-badge {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background:#f5f6fa;
+  border-radius: 9999px;
+  padding: 16px 24px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.vision-mission-badge .year {
+  color: #ffc107;
+  font-weight: bold;
+  font-size: 24px;
+  margin: 0;
+}
+
+.vision-mission-badge .label {
+  color: #1e293b;
+  font-weight: 600;
+  margin: 0;
+}

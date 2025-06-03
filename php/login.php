@@ -10,7 +10,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         list($saved_user, $saved_pass) = explode('|', trim($user));
         if ($username == $saved_user && $password == $saved_pass) {
             $_SESSION['username'] = $username;
-            header("Location: ../welcome.html");
+            header("Location: dashboard.php");
             exit();
         }
     }
